@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="TestingIndividual" time="0.494" errors="2" skipped="0">
+  <properties>
+    <property name="idea.version" value="14.1.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7534"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Учёба\Магистратура 5 курс 2 семестр\Методы оптимизации\Labs\LabGA1"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VREDL~1.HOM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.1\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0;D:\Program Files\Java\jdk1.8.0_20\bin;D:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\Program Files\Java\jdk1.8.0_20\bin;C:\Dwimperl\perl\bin;C:\Dwimperl\perl\site\bin;C:\Dwimperl\c\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;D:\Program Files (x86)\QuickTime\QTSystem\; D:\Program Files\Java\JDK\bin;d:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;d:\Program Files\Microsoft SQL Server\110\Tools\Binn\;d:\Program Files\Microsoft SQL Server\110\DTS\Binn\;d:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;d:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Apache Software Foundation\apache-maven-3.2.5\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Vred.L.Hom"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.1\bin"/>
+    <property name="file.encoding" value="windows-1251"/>
+    <property name="user.name" value="Vred.L.Hom"/>
+    <property name="java.class.path" value="D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.1\plugins\maven\lib\maven3\boot\plexus-classworlds-2.4.jar;D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.1\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_20\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.1.1 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files (x86)\JetBrains\IntelliJ IDEA 14.1.1\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestingIndividual" name="initializationError" time="0.066">
+    <error message="Method testStartMethod() should be public" type="java.lang.Exception">java.lang.Exception: Method testStartMethod() should be public
+	at org.junit.runners.model.FrameworkMethod.validatePublicVoid(FrameworkMethod.java:96)
+	at org.junit.runners.model.FrameworkMethod.validatePublicVoidNoArg(FrameworkMethod.java:74)
+	at org.junit.runners.ParentRunner.validatePublicVoidNoArgMethods(ParentRunner.java:155)
+	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:187)
+	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:128)
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:416)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:84)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at org.junit.internal.builders.JUnit4Builder.runnerForClass(JUnit4Builder.java:10)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:51)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+  <testcase classname="TestingIndividual" name="initializationError" time="0.007">
+    <error message="Method testCoding() should be public" type="java.lang.Exception">java.lang.Exception: Method testCoding() should be public
+	at org.junit.runners.model.FrameworkMethod.validatePublicVoid(FrameworkMethod.java:96)
+	at org.junit.runners.model.FrameworkMethod.validatePublicVoidNoArg(FrameworkMethod.java:74)
+	at org.junit.runners.ParentRunner.validatePublicVoidNoArgMethods(ParentRunner.java:155)
+	at org.junit.runners.BlockJUnit4ClassRunner.validateTestMethods(BlockJUnit4ClassRunner.java:208)
+	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:188)
+	at org.junit.runners.BlockJUnit4ClassRunner.collectInitializationErrors(BlockJUnit4ClassRunner.java:128)
+	at org.junit.runners.ParentRunner.validate(ParentRunner.java:416)
+	at org.junit.runners.ParentRunner.&lt;init&gt;(ParentRunner.java:84)
+	at org.junit.runners.BlockJUnit4ClassRunner.&lt;init&gt;(BlockJUnit4ClassRunner.java:65)
+	at org.junit.internal.builders.JUnit4Builder.runnerForClass(JUnit4Builder.java:10)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:51)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+  </testcase>
+</testsuite>
